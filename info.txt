@@ -1,0 +1,7 @@
+git remote set-url origin git@github.com:KonuTech/student-poverty.git
+
+
+
+https://hub.docker.com/r/jupyter/pyspark-notebook
+docker pull jupyter/pyspark-notebook
+docker run -d -v /mnt/c/Users/KonuTech/stooq:/home/jovyan/work -p 8888:8888 jupyter/pyspark-notebook
